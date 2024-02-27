@@ -6,7 +6,7 @@ export default function Header() {
         <>
         <div className={style.header}>
             <div className={style.container}>
-                <img src="src/assets/logo.png" alt="" />
+                <img src={"/static/images/logo.png"} alt="" />
             </div>
         </div>
         </>
