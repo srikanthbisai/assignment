@@ -1,0 +1,84 @@
+.main {
+    padding-top: 10px;
+}
+p span {
+  margin: 0 10px; /* This adds space around the separators */
+  color: red; /* Replace with the color you want for the separators */
+}
+.para1{
+  font-weight: bold;
+  color: black;
+}
+.line {
+    background-color: red;
+    margin: 10px 0;
+    width: 95%;
+    height: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+}
+.box div:nth-child(1) {
+  flex: 1;
+}
+
+.box div:nth-child(2) {
+  flex: 3;
+}
+
+.image1 {
+  width: clamp(5em, 15vw, 20em);
+  object-fit: cover;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+.section >p{
+  margin: 20px 0;
+}
+.section >div{
+  margin: 20px 0;
+}
+
+.image2 {
+  width: clamp(20em, 35vw, 40em);
+  margin: 10px 0;
+}
+
+.motor {
+  width: clamp(20em, 50vw, 50em);
+  margin: 10px 0;
+}
+
+.lowerpara {
+  text-align: center;
+  padding: 0 px;
+  width: 80vw;
+}
+
+.lowerpara >p{
+  margin: 10px 0;
+}
+
+@media (max-width: 1200px) {
+  .box {
+    flex-direction: column;
+  }
+  .section {
+    justify-content: center;
+    align-items: center;
+  }
+}
