@@ -5,7 +5,7 @@ export default function Main() {
       <div className={style.container}>
         <div className={style.box}>
           <div>
-            <img src={"src/assets/1.png"} alt="1.png" className={style.image1} />
+            <img src={"/static/images/1.png"} alt="1.png" className={style.image1} />
           </div>
 
           <div className={style.section}>
@@ -28,7 +28,7 @@ export default function Main() {
             </ul>
             <div className={style.image}>
               <img
-                src={"src/assets/2.png"}
+                src={"/static/images/2.png"}
                 alt="2.png"
                 className={style.image2}
               />
@@ -50,7 +50,7 @@ export default function Main() {
           POWER FOR THE NATION.
         </p>
 
-        <img className={style.motor} src={"src/assets/3.png"} alt="3.png" />
+        <img className={style.motor} src={"/static/images/3.png"} alt="3.png" />
         <p>
           Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
           Solar Systems - Motors
